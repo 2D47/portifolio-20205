@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+:root {
+    --cor-principal: #21201e;
+    --cor-secundaria: rgb(5, 1, 1);
+    --cor-destaque: #ffffff;
+}
+
+body {
+    font-family: "Marcellus", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(167, 148, 123);
+}
+
+h1,
+h2,
+h5 {
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+.borda-personalizada {
+    border: 5px solid #000000;
+    border-radius: 30px;
+}
+
+.card-texto-escuro {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.card-body {
+    margin-bottom: 50px;
+}
+
+#modal1 .modal-body {
+    background-color: transparent;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.card {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+}   
+
+img {
+    margin-bottom: 40px;
+}
+
+.modal-content {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.borda-personalizada {
+    border: 6px solid #21201e;
+
+}
+
+.fundo-personalizado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fundo-abstrato-onda-branca-papel-de-parede-grafico-branco-minimo-ilustracao-2d_67092-1705.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -2;
+    opacity: 0.2;
+    pointer-events: none;
+}
